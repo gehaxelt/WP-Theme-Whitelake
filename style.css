@@ -867,21 +867,18 @@ article.sticky .featured-post {
 	font-family: Consolas, Monaco, Lucida Console, monospace;
 	font-size: 12px;
 	font-size: 0.857142857rem;
-	line-height: 2;
+	margin-top:-1.3em;
 }
 .entry-content pre,
 .comment-content pre {
-	border: 1px solid #ededed;
+	border: 1px solid #21759b;
 	color: #666;
 	font-family: Consolas, Monaco, Lucida Console, monospace;
 	font-size: 12px;
 	font-size: 0.857142857rem;
-	line-height: 1.714285714;
 	margin: 24px 0;
 	margin: 1.714285714rem 0;
 	overflow: auto;
-	padding: 24px;
-	padding: 1.714285714rem;
 }
 .entry-content pre code,
 .comment-content pre code {
