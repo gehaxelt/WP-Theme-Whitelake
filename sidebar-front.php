@@ -5,8 +5,8 @@
  * If no active widgets in either sidebar, they will be hidden completely.
  *
  * @package WordPress
- * @subpackage Twenty_Twelve
- * @since Twenty Twelve 1.0
+ * @subpackage Whitelake
+ * @since Whitelake 1.0
  */
 
 /*

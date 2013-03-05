@@ -1,11 +1,11 @@
 <?php
 /**
- * Implements an optional custom header for Twenty Twelve.
+ * Implements an optional custom header for Whitelake.
  * See http://codex.wordpress.org/Custom_Headers
  *
  * @package WordPress
- * @subpackage Twenty_Twelve
- * @since Twenty Twelve 1.0
+ * @subpackage Whitelake
+ * @since Whitelake 1.0
  */
 
 /**
@@ -16,7 +16,7 @@
  * @uses whitelake_admin_header_style() to style wp-admin form.
  * @uses whitelake_admin_header_image() to add custom markup to wp-admin form.
  *
- * @since Twenty Twelve 1.0
+ * @since Whitelake 1.0
  */
 function whitelake_custom_header_setup() {
 	$args = array(
@@ -51,7 +51,7 @@ add_action( 'after_setup_theme', 'whitelake_custom_header_setup' );
  *
  * get_header_textcolor() options: 444 is default, hide text (returns 'blank'), or any hex value.
  *
- * @since Twenty Twelve 1.0
+ * @since Whitelake 1.0
  */
 function whitelake_header_style() {
 	$text_color = get_header_textcolor();
@@ -89,7 +89,7 @@ function whitelake_header_style() {
 /**
  * Styles the header image displayed on the Appearance > Header admin panel.
  *
- * @since Twenty Twelve 1.0
+ * @since Whitelake 1.0
  */
 function whitelake_admin_header_style() {
 ?>
@@ -129,7 +129,7 @@ function whitelake_admin_header_style() {
  * Outputs markup to be displayed on the Appearance > Header admin panel.
  * This callback overrides the default markup displayed there.
  *
- * @since Twenty Twelve 1.0
+ * @since Whitelake 1.0
  */
 function whitelake_admin_header_image() {
 	?>

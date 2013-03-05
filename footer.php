@@ -6,15 +6,14 @@
  * #main and #page div elements.
  *
  * @package WordPress
- * @subpackage Twenty_Twelve
- * @since Twenty Twelve 1.0
+ * @subpackage Whitelake
+ * @since Whitelake 1.0
  */
 ?>
 	</div><!-- #main .wrapper -->
 	<footer id="colophon" role="contentinfo">
 		<div class="site-info">
-			<?php do_action( 'whitelake_credits' ); ?>
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'whitelake' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'whitelake' ); ?>"><?php printf( __( 'Proudly powered by %s', 'whitelake' ), 'WordPress' ); ?></a>
+			<span>Twenty Twelve modified by <a href='http://www.it-solutions-neef.de' title='IT Solutions Neef - Seucuritychecks' alt='IT Solutions Neef - Seucuritychecks'>IT Solutions Neef</a></span>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

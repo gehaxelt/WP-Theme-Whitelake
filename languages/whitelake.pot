@@ -2,8 +2,8 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Twenty Twelve 1.1\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tags/whitelake\n"
+"Project-Id-Version: Whitelake 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/twentytwelve\n"
 "POT-Creation-Date: 2013-01-01 00:19:44+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,107 +20,107 @@ msgstr ""
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
-msgstr ""
+msgstr "Leider konnten wir nichts finden. Vielleicht hilft die Suche?"
 
 #: archive.php:29
 msgid "Daily Archives: %s"
-msgstr ""
+msgstr "T&auml;gliches Archiv: %s"
 
 #: archive.php:31
 msgid "Monthly Archives: %s"
-msgstr ""
+msgstr "Monatliches Archiv: %s"
 
 #: archive.php:31
 msgctxt "monthly archives date format"
 msgid "F Y"
-msgstr ""
+msgstr "F Y"
 
 #: archive.php:33
 msgid "Yearly Archives: %s"
-msgstr ""
+msgstr "J&auml;hrliches Archiv: %s"
 
 #: archive.php:33
 msgctxt "yearly archives date format"
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #: archive.php:35
 msgid "Archives"
-msgstr ""
+msgstr "Archiv"
 
 #: author.php:32
 msgid "Author Archives: %s"
-msgstr ""
+msgstr "Author Archiv %s"
 
 #: author.php:53 content.php:53
 msgid "About %s"
-msgstr ""
+msgstr "&Uuml;ber %s"
 
 #: category.php:21
 msgid "Category Archives: %s"
-msgstr ""
+msgstr "Kategorie Archiv: %s"
 
 #: comments.php:31
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ein Gedanke zu %2"
+msgstr[1] "%1 Gedanken zu %2"
 
 #: comments.php:42
 msgid "Comment navigation"
-msgstr ""
+msgstr "Kommentarnavigation"
 
 #: comments.php:43
 msgid "&larr; Older Comments"
-msgstr ""
+msgstr "&larr; &auml;ltere Kommentare"
 
 #: comments.php:44
 msgid "Newer Comments &rarr;"
-msgstr ""
+msgstr "Neuere Kommentare &rarr;"
 
 #: comments.php:53
 msgid "Comments are closed."
-msgstr ""
+msgstr "Keine Kommentare mehr m&ouml;glich."
 
 #: content-aside.php:13 content-aside.php:20 content-image.php:17
 #: content-link.php:18 content-quote.php:17 content-status.php:15
 #: content.php:23
 msgid "Permalink to %s"
-msgstr ""
+msgstr "Permanentlink zu %s"
 
 #: content-aside.php:15 content-image.php:13 content-link.php:14
 #: content-quote.php:13 content-status.php:21 content.php:39
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
+msgstr "Weiterlesen <span class=\"meta-nav\">&rarr;</span>"
 
 #: content-aside.php:23 content-image.php:23 content-link.php:21
 #: content-quote.php:20 content-status.php:27 content.php:28
 msgid "Leave a reply"
-msgstr ""
+msgstr "Eine Antwort verfassen"
 
 #: content-aside.php:23 content-image.php:23 content-link.php:21
 #: content-quote.php:20 content-status.php:27 content.php:28
 msgid "1 Reply"
-msgstr ""
+msgstr "1 Antwort"
 
 #: content-aside.php:23 content-image.php:23 content-link.php:21
 #: content-quote.php:20 content-status.php:27 content.php:28
 msgid "% Replies"
-msgstr ""
+msgstr "% Antworten"
 
 #: content-aside.php:26 content-image.php:26 content-link.php:24
 #: content-page.php:21 content-quote.php:23 content-status.php:30
 #: content.php:46 functions.php:309 image.php:37
 msgid "Edit"
-msgstr ""
+msgstr "Bearbeiten"
 
 #: content-link.php:12
 msgid "Link"
-msgstr ""
+msgstr "Link"
 
 #: content-none.php:13 index.php:49 search.php:34
 msgid "Nothing Found"
-msgstr ""
+msgstr "Nichts gefunden"
 
 #: content-none.php:17 index.php:53
 msgid ""
@@ -130,7 +130,7 @@ msgstr ""
 
 #: content-page.php:18 content.php:40 image.php:92
 msgid "Pages:"
-msgstr ""
+msgstr "Seiten: "
 
 #: content.php:14
 msgid "Featured post"
@@ -138,13 +138,13 @@ msgstr ""
 
 #: content.php:57
 msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
+msgstr "Alle Beitr&auml;ge von %s <span class\"meta-nav\">&rarr;</span>"
 
-#. #-#-#-#-#  whitelake.pot (Twenty Twelve 1.1)  #-#-#-#-#
+#. #-#-#-#-#  twentytwelve.pot (Twenty Twelve 1.1)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:17
 msgid "http://wordpress.org/"
-msgstr ""
+msgstr "http://www.it-solutions-neef.de"
 
 #: footer.php:17
 msgid "Semantic Personal Publishing Platform"
@@ -152,11 +152,11 @@ msgstr ""
 
 #: footer.php:17
 msgid "Proudly powered by %s"
-msgstr ""
+msgstr "Pr&auml;sentiert von %s"
 
 #: functions.php:64
 msgid "Primary Menu"
-msgstr ""
+msgstr "Hauptmen&uuml;"
 
 #. translators: If there are characters in your language that are not supported
 #. 	   by Open Sans, translate this to 'off'. Do not translate into your own
@@ -164,7 +164,7 @@ msgstr ""
 #: functions.php:120
 msgctxt "Open Sans font: on or off"
 msgid "on"
-msgstr ""
+msgstr "an"
 
 #. translators: To add an additional Open Sans character subset specific to
 #. your language, translate
@@ -177,11 +177,11 @@ msgstr ""
 
 #: functions.php:181
 msgid "Page %s"
-msgstr ""
+msgstr "Seite %s"
 
 #: functions.php:206
 msgid "Main Sidebar"
-msgstr ""
+msgstr "Sidebar"
 
 #: functions.php:208
 msgid ""
@@ -205,15 +205,15 @@ msgstr ""
 
 #: functions.php:250 single.php:20
 msgid "Post navigation"
-msgstr ""
+msgstr "Postnavigation"
 
 #: functions.php:251
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr ""
+msgstr "<span class=\"meta-nav\">&larr;</span> &Auml;ltere Beitr&auuml;ge"
 
 #: functions.php:252
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
+msgstr "Neuere Beitr&auuml;ge <span class=\"meta-nav\">&rarr;</span>"
 
 #: functions.php:277
 msgid "Pingback:"
@@ -221,38 +221,38 @@ msgstr ""
 
 #: functions.php:277
 msgid "(Edit)"
-msgstr ""
+msgstr "(Bearbeiten)"
 
 #: functions.php:292
 msgid "Post author"
-msgstr ""
+msgstr "Beitragsauthor"
 
 #. translators: 1: date, 2: time
 #: functions.php:298
 msgid "%1$s at %2$s"
-msgstr ""
+msgstr "%1$s um %2$s"
 
 #: functions.php:304
 msgid "Your comment is awaiting moderation."
-msgstr ""
+msgstr "Dein Kommentare wartet auf Moderation"
 
 #: functions.php:313
 msgid "Reply"
-msgstr ""
+msgstr "Antworten"
 
 #: functions.php:332 functions.php:335
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: functions.php:346
 msgid "View all posts by %s"
-msgstr ""
+msgstr "Alle Beitr&auml;ge von %s"
 
 #: functions.php:352
 msgid ""
 "This entry was posted in %1$s and tagged %2$s on %3$s<span class=\"by-author"
 "\"> by %4$s</span>."
-msgstr ""
+msgstr "Dieser Eintrag wurde von <span class=\"by-author\"> %4$s</span> am %3$s in %1$s gepostet und getaggt."
 
 #: functions.php:354
 msgid ""
@@ -266,11 +266,11 @@ msgstr ""
 
 #: header.php:43
 msgid "Menu"
-msgstr ""
+msgstr "Menu"
 
 #: header.php:44
 msgid "Skip to content"
-msgstr ""
+msgstr "Zum Inhalt &uuml;berspringen"
 
 #: image.php:26
 msgid ""
@@ -325,7 +325,7 @@ msgid "Twenty Twelve"
 msgstr ""
 
 #. Theme URI of the plugin/theme
-msgid "http://wordpress.org/extend/themes/whitelake"
+msgid "http://wordpress.org/extend/themes/twentytwelve"
 msgstr ""
 
 #. Description of the plugin/theme

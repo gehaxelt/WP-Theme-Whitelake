@@ -1,6 +1,6 @@
 <?php
 /**
- * Twenty Twelve functions and definitions.
+ * Whitelake functions and definitions.
  *
  * Sets up the theme and provides some helper functions, which are used
  * in the theme as custom template tags. Others are attached to action and
@@ -18,8 +18,8 @@
  * For more information on hooks, actions, and filters, see http://codex.wordpress.org/Plugin_API.
  *
  * @package WordPress
- * @subpackage Twenty_Twelve
- * @since Twenty Twelve 1.0
+ * @subpackage Whitelake
+ * @since Whitelake 1.0
  */
 
 /**
@@ -30,7 +30,7 @@ if ( ! isset( $content_width ) )
 
 /**
  * Sets up theme defaults and registers the various WordPress features that
- * Twenty Twelve supports.
+ * Whitelake supports.
  *
  * @uses load_theme_textdomain() For translation/localization support.
  * @uses add_editor_style() To add a Visual Editor stylesheet.
@@ -39,14 +39,14 @@ if ( ! isset( $content_width ) )
  * @uses register_nav_menu() To add support for navigation menus.
  * @uses set_post_thumbnail_size() To set a custom post thumbnail size.
  *
- * @since Twenty Twelve 1.0
+ * @since Whitelake 1.0
  */
 function whitelake_setup() {
 	/*
-	 * Makes Twenty Twelve available for translation.
+	 * Makes Whitelake available for translation.
 	 *
 	 * Translations can be added to the /languages/ directory.
-	 * If you're building a theme based on Twenty Twelve, use a find and replace
+	 * If you're building a theme based on Whitelake, use a find and replace
 	 * to change 'whitelake' to the name of your theme in all the template files.
 	 */
 	load_theme_textdomain( 'whitelake', get_template_directory() . '/languages' );
@@ -85,7 +85,7 @@ require( get_template_directory() . '/inc/custom-header.php' );
 /**
  * Enqueues scripts and styles for front-end.
  *
- * @since Twenty Twelve 1.0
+ * @since Whitelake 1.0
  */
 function whitelake_scripts_styles() {
 	global $wp_styles;
@@ -156,7 +156,7 @@ add_action( 'wp_enqueue_scripts', 'whitelake_scripts_styles' );
  * Creates a nicely formatted and more specific title element text
  * for output in head of document, based on current view.
  *
- * @since Twenty Twelve 1.0
+ * @since Whitelake 1.0
  *
  * @param string $title Default title text for current view.
  * @param string $sep Optional separator.
@@ -187,7 +187,7 @@ add_filter( 'wp_title', 'whitelake_wp_title', 10, 2 );
 /**
  * Makes our wp_nav_menu() fallback -- wp_page_menu() -- show a home link.
  *
- * @since Twenty Twelve 1.0
+ * @since Whitelake 1.0
  */
 function whitelake_page_menu_args( $args ) {
 	if ( ! isset( $args['show_home'] ) )
@@ -199,7 +199,7 @@ add_filter( 'wp_page_menu_args', 'whitelake_page_menu_args' );
 /**
  * Registers our main widget area and the front page widget areas.
  *
- * @since Twenty Twelve 1.0
+ * @since Whitelake 1.0
  */
 function whitelake_widgets_init() {
 	register_sidebar( array(
@@ -238,7 +238,7 @@ if ( ! function_exists( 'whitelake_content_nav' ) ) :
 /**
  * Displays navigation to next/previous pages when applicable.
  *
- * @since Twenty Twelve 1.0
+ * @since Whitelake 1.0
  */
 function whitelake_content_nav( $html_id ) {
 	global $wp_query;
@@ -264,7 +264,7 @@ if ( ! function_exists( 'whitelake_comment' ) ) :
  *
  * Used as a callback by wp_list_comments() for displaying the comments.
  *
- * @since Twenty Twelve 1.0
+ * @since Whitelake 1.0
  */
 function whitelake_comment( $comment, $args, $depth ) {
 	$GLOBALS['comment'] = $comment;
@@ -325,7 +325,7 @@ if ( ! function_exists( 'whitelake_entry_meta' ) ) :
  *
  * Create your own whitelake_entry_meta() to override in a child theme.
  *
- * @since Twenty Twelve 1.0
+ * @since Whitelake 1.0
  */
 function whitelake_entry_meta() {
 	// Translators: used between list items, there is a space after the comma.
@@ -376,7 +376,7 @@ endif;
  * 4. Custom fonts enabled.
  * 5. Single or multiple authors.
  *
- * @since Twenty Twelve 1.0
+ * @since Whitelake 1.0
  *
  * @param array Existing class values.
  * @return array Filtered class values.
@@ -415,7 +415,7 @@ add_filter( 'body_class', 'whitelake_body_class' );
  * Adjusts content_width value for full-width and single image attachment
  * templates, and when there are no active widgets in the sidebar.
  *
- * @since Twenty Twelve 1.0
+ * @since Whitelake 1.0
  */
 function whitelake_content_width() {
 	if ( is_page_template( 'page-templates/full-width.php' ) || is_attachment() || ! is_active_sidebar( 'sidebar-1' ) ) {
@@ -428,7 +428,7 @@ add_action( 'template_redirect', 'whitelake_content_width' );
 /**
  * Add postMessage support for site title and description for the Theme Customizer.
  *
- * @since Twenty Twelve 1.0
+ * @since Whitelake 1.0
  *
  * @param WP_Customize_Manager $wp_customize Theme Customizer object.
  * @return void
@@ -442,7 +442,7 @@ add_action( 'customize_register', 'whitelake_customize_register' );
 /**
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  *
- * @since Twenty Twelve 1.0
+ * @since Whitelake 1.0
  */
 function whitelake_customize_preview_js() {
 	wp_enqueue_script( 'whitelake-customizer', get_template_directory_uri() . '/js/theme-customizer.js', array( 'customize-preview' ), '20120827', true );
