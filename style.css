@@ -69,6 +69,10 @@ ul {
 blockquote,
 q {
 	quotes: none;
+	font-style: italic;
+	font-weight: bold;
+	border: 1px dotted #21759b;
+	background: rgb(244, 244, 244);
 }
 blockquote:before,
 blockquote:after,
@@ -857,6 +861,9 @@ article.sticky .featured-post {
 	padding: 24px;
 	padding: 1.714285714rem;
 	font-style: italic;
+	font-weight: bold;
+	border: 1px dotted #21759b;
+	background-color: rgb(244, 244, 244);
 }
 .entry-content blockquote p:last-child,
 .comment-content blockquote p:last-child {
@@ -878,7 +885,7 @@ article.sticky .featured-post {
 	margin: 24px 0;
 	margin: 1.714285714rem 0;
 	text-wrap:normal;
-	overflow-x: scroll;
+	overflow-x: auto;
 	white-sprace: pre;
 	background-color: rgb(244, 244, 244);
 }
@@ -1131,7 +1138,6 @@ article.format-quote .entry-content blockquote {
 	font-size: 15px;
 	font-size: 1.071428571rem;
 	line-height: 1.6;
-	font-style: normal;
 	color: #6a6a6a;
 	background: #efefef;
 }
