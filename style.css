@@ -877,7 +877,10 @@ article.sticky .featured-post {
 	font-size: 0.857142857rem;
 	margin: 24px 0;
 	margin: 1.714285714rem 0;
-	overflow: auto;
+	text-wrap:normal;
+	overflow-x: scroll;
+	white-sprace: pre;
+	background-color: rgb(244, 244, 244);
 }
 .entry-content pre code,
 .comment-content pre code {
