@@ -13,7 +13,7 @@
 	</div><!-- #main .wrapper -->
 	<footer id="colophon" role="contentinfo">
 		<div class="site-info">
-			<span>Twenty Twelve modified by <a href='http://www.it-solutions-neef.de' title='IT Solutions Neef - Seucuritychecks' alt='IT Solutions Neef - Seucuritychecks'>IT Solutions Neef</a></span>
+			<span>Twenty Twelve modified by <a href='http://www.it-solutions-neef.de' title='IT Solutions Neef - Seucuritychecks' alt='IT Solutions Neef - Seucuritychecks'>IT Solutions Neef</a> and <a href='http://blogbasis.net' title='Blogbasis.net'>Blogbasis.net</a></span>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
